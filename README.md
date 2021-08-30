@@ -25,4 +25,9 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 - Google Drive is often whitelisted in restricted networks.
 
 ## Why.. in general?
-- This is for evading web filters to watch Youtube videos. It's an attempt to disguise the process of evading a filter, by using Zoom and Drive, two apps commonly used for studies. 
+- This is for evading web filters to watch Youtube videos. It's an attempt to disguise the process of evading a filter, by using Zoom and Drive, two apps commonly used for studies.
+
+## Credits
+- [devtud on Medium](https://devtud.medium.com/upload-files-in-google-drive-with-golang-and-google-drive-api-d686fb62f884), for information on using the Google Drive API in Golang
+- [chris124567/zoomer](https://github.com/chris124567/zoomer), for reverse engineering the Zoom meeting API and writing a Golang library.
+- [go-shiori/obelisk](https://github.com/go-shiori/obelisk), for providing a way to archive a webpage with all assets in one HTML file.
