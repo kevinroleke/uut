@@ -1,6 +1,4 @@
-# Casigo
-
-"Casi" = Fast (zoom)
+# Uut
 
 Download and search for Youtube videos from a Zoom meeting chatbot. 
 
@@ -17,7 +15,7 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 ```
 - Create a publicly accessible folder in google drive. Save its ID.
 - Enable the Drive API in your Google account
-- Run casigo, supplying the --meetingNumber, --password (meeting password) and --folder (google drive folder ID)
+- Run Uut, supplying the --meetingNumber, --password (meeting password) and --folder (google drive folder ID)
 - Follow the oauth link and directions
 
 ## Why Google Drive?

@@ -1,4 +1,4 @@
-module casigo
+module uut
 
 go 1.16
 

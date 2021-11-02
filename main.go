@@ -81,7 +81,7 @@ func main() {
 	flag.Parse()
 
 	if *meetingNumber == "" || *meetingPassword == "" {
-		panic("Usage: ./casigo --meetingNumber <zoom meeting number> --password <zoom meeting password> --folder <google drive folder ID> --invidious <optional invidious link> --hwid <optional HWID as a guid>")
+		panic("Usage: ./uut --meetingNumber <zoom meeting number> --password <zoom meeting password> --folder <google drive folder ID> --invidious <optional invidious link> --hwid <optional HWID as a guid>")
 	}
 
 	apiKey := os.Getenv("ZOOM_JWT_API_KEY")
@@ -99,7 +99,7 @@ func main() {
 	// For some reason this module spams logs to stdout
 	log.SetOutput(ioutil.Discard)
 
-	session, err := zoom.NewZoomSession(*meetingNumber, *meetingPassword, "casigo", *hwid, "", apiKey, apiSecret)
+	session, err := zoom.NewZoomSession(*meetingNumber, *meetingPassword, "uut", *hwid, "", apiKey, apiSecret)
 	HandleErr(err)
 
 	meetingInfo, cookieString, err := session.GetMeetingInfoData()
