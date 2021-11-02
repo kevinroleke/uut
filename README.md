@@ -25,6 +25,8 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 ## Why.. in general?
 - This is for evading web filters to watch Youtube videos. It's an attempt to disguise the process of evading a filter, by using Zoom and Drive, two apps commonly used for studies.
 
+I believe protocol steganography will eventually be the only way to access the internet freely for many people. 
+
 ## Credits
 - [devtud on Medium](https://devtud.medium.com/upload-files-in-google-drive-with-golang-and-google-drive-api-d686fb62f884), for information on using the Google Drive API in Golang
 - [chris124567/zoomer](https://github.com/chris124567/zoomer), for reverse engineering the Zoom meeting API and writing a Golang library.
